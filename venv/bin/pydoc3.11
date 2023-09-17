@@ -1,0 +1,5 @@
+#!/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

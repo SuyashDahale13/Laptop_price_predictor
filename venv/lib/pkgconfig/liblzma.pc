@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv
+exec_prefix=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv
+libdir=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/lib
+includedir=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

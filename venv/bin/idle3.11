@@ -1,0 +1,5 @@
+#!/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/bin/python3.11
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

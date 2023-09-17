@@ -1,0 +1,13 @@
+prefix=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv
+exec_prefix=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv
+libdir=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/lib
+sharedlibdir=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/lib
+includedir=/Users/suyashdahale/Documents/data_science/Practice_stuff/CampusX/Laptop/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
